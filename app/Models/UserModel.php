@@ -23,7 +23,7 @@ class UserModel extends Model
                 ->get();
             return $query;
         } catch (Exception $e) {
-            dd($e);
+            // dd($e);
         }
     }
 }
